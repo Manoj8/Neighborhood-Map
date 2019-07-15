@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#nav
+{  
+    position:fixed;
+    width:100%;
+    height:50px;
+    background:black;
+    color:white;
+    text-align: center;
+    font-size: 180%;
+    font-weight: 500;
+}
+
+#field
+{
+    margin-left: 10%;
+        text-align: center;
+    width:65%;
+    height: 18px;
+}
+
+#sidenav
+{
+    background: black;
+    width:20%;
+    height: 2000px;
+    font-size: 70%;
+    margin-top: -80px;
+    z-index: 100;
+}
+.btn {
+    margin-left: -90%;
+    position: relative;
+    top: -56px;
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+   
+}
+
+.btn1
+{
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+    border:none;
+    position: relative;
+    left: 45%;
+    top:50px;
+}
+
+.background
+{
+    background-size:contain;
+    margin: auto;
+    background-position: center ;
+    background-repeat: no-repeat
+}
+
+p
+{
+    font-size: 150%;
+}
+
+.infoheader
+{
+    text-align: center;
+
+}
+
+@media screen and (min-width:800px) and (max-width: 1200px) {
+    #sidenav 
+    {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 800px) {
+    #sidenav 
+    {
+        width: 45%;
+        z-index: 100;
+    }
+    #header
+    {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: -2; 
+    }
+}
+
+InfoWindow
+{
+    background: red;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+     #sidenav 
+    {
+        width: 70%;
+        z-index: 100;
+    }
+    
+    #nav
+    {
+        font-size: 160%;
+       z-index: 100;
+    }
+    #header
+    {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        z-index: -2;
+    }
+    .btn {
+        
+        position: relative;
+        top: -50px;
+        left: 10px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+    .infoheader
+    {
+        text-align: center;
+        font-size: 175%
+    }
+    
+    .background
+    {
+        background-size:contain;
+        width:50px;
+        height: auto;
+    }
+    
+}
