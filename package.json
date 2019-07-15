@@ -1,0 +1,39 @@
+{
+  "name": "maps",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "google-map-react": "^1.1.4",
+    "google-maps-react": "^2.0.2",
+    "mat-sidenav-menu": "^0.10.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mdbootstrap": "^4.7.6",
+    "native-base": "^2.12.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-native": "^0.59.3",
+    "react-native-elements": "^1.1.0",
+    "react-navigation": "^3.6.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-sidebar": "^3.0.2",
+    "react-sidenav": "^3.1.9",
+    "styled-components": "^4.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
